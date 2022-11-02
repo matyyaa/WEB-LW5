@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гайдукевич М.А. Лабораторна робота №5 Варіант 4</title>
+</head>
+
+<body>
+    </div>
+        ПІБ: <span id="data"></span><br>
+    </div>
+    <div>
+        ID-картка: <span id="data1"></span><br>
+    </div>
+    <div>
+        Факультет: <span id="data2"></span><br>
+    </div>
+    <div>
+        Дата народження: <span id="data3"></span><br>
+    </div>
+    <div>
+        Адреса: <span id="data4"></span><br>
+    </div>
+</body>
+<script>
+    document.getElementById("data").innerHTML = sessionStorage.getItem("data0");
+    document.getElementById("data1").innerHTML = sessionStorage.getItem("data1");
+    document.getElementById("data2").innerHTML =
+        sessionStorage.getItem("data2");
+    document.getElementById("data3").innerHTML =
+        sessionStorage.getItem("data3");
+    document.getElementById("data4").innerHTML = sessionStorage.getItem("data4");
+</script>
+
+</html>

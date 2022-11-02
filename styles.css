@@ -1,0 +1,62 @@
+.text_area {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: Helvetica;
+    font-size: 14px;
+    border: 1px solid #4e4e4e;
+    box-shadow: 1px 1px 10px #EBEBEB;
+    border-radius: 3px;
+    padding: 10px;
+    outline: none;
+}
+
+.text_area:focus {
+    border: 1px solid rgb(0, 130, 190);
+}
+
+.getRed {
+    border: 1px solid red;
+}
+
+.getNormal {
+    border: 1px solid #0C0;
+}
+
+#btn {
+    border: none;
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: 10px 20px 10px 20px;
+    background: #00a6ff;
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 14px;
+    box-shadow: 1px 1px 4px #595959;
+    border-radius: 3px;
+}
+
+label {
+    width: 100px;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+table,
+th,
+td {
+    border: 3px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+
+#colorInput {
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 600px;
+}
